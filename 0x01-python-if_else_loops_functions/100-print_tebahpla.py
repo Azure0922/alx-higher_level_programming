@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-x = range(122, 97, -1)
+x = range(122, 96, -1)
 for n in x:
-    if n % 2 == 1:
-        n = n - 32
-    elif n % 2 == 0:
-        n = n - 0
-y = chr(n)
-print(y, end= '')
+    y = chr(n)
+if n % 2 == 1:
+    n = n - 32
+elif n % 2 == 0:
+    n = n - 0
+print("{y}".format(y = chr(n)), end= '')
