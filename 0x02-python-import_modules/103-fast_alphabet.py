@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-print("ABCDEFGHIJKLMNOPQRSTUVWXYZ", end='')
-print()
+caps = list(map(chr, range(65, 91)))
+print(*caps, sep='')
