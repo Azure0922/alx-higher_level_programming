@@ -2,4 +2,4 @@
 from add_0 import add
 a = 1
 b = 2
-print("{c} + {d} = {e}".format(c=a, d=b, e=add(a, b)))
+print("{c} + {d} = {add(a, b)}".format(c=a, d=b)
